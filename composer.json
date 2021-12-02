@@ -1,0 +1,32 @@
+{
+    "name": "dcat-admin/ueditor",
+    "alias": "",
+    "description": "Description...",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/dcat-admin/ueditor",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "your name",
+            "email": "your email"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DcatAdmin\\Ueditor\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "DcatAdmin\\Ueditor\\UeditorServiceProvider",
+        "laravel": {
+            "providers": [
+                "DcatAdmin\\Ueditor\\UeditorServiceProvider"
+            ]
+        }
+    }
+}

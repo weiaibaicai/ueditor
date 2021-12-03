@@ -1,10 +1,10 @@
 {
-    "name": "dcat-admin/ueditor",
+    "name": "weiaibaicai/dcat-admin-ueditor",
     "alias": "",
     "description": "Description...",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/dcat-admin/ueditor",
+    "homepage": "https://github.com/weiaibaicai/dcat-admin-ueditor",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.4.0",
         "dcat/laravel-admin": "~2.0"
     },
     "autoload": {

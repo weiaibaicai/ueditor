@@ -45,6 +45,10 @@ class UeditorServiceProvider extends ServiceProvider
             });
         });
 
+        $this->publishes([
+            __DIR__.'/config/ueditor.php' => config_path('ueditor.php'),
+        ], 'config');
+
         parent::init();
 
     }

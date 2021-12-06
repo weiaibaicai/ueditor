@@ -6,7 +6,6 @@ use Dcat\Admin\Admin;
 use Dcat\Admin\Extend\ServiceProvider;
 use Dcat\Admin\Form;
 use Weiaibaicai\Ueditor\Form\UEditor as UEditorForm;
-use Illuminate\Foundation\Application as LaravelApplication;
 
 class UeditorServiceProvider extends ServiceProvider
 {

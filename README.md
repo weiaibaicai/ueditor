@@ -31,7 +31,7 @@ php artisan vendor:publish --provider="Weiaibaicai\Ueditor\UeditorServiceProvide
 ## 方法使用
 
 ```
-php artisan vendor:publish --provider="Weiaibaicai\Ueditor\UeditorServiceProvider"
+$form->ueditor('content');
 ```
 
 ## 安装问题

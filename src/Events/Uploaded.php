@@ -8,7 +8,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace DcatAdmin\Ueditor\Events;
+namespace Weiaibaicai\Ueditor\Events;
 
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Events\Dispatchable;

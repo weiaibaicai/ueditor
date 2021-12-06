@@ -1,10 +1,10 @@
 <?php
 
-namespace DcatAdmin\Ueditor\Http\Controllers;
+namespace Weiaibaicai\Ueditor\Http\Controllers;
 
-use DcatAdmin\Ueditor\Ueditor;
+use Weiaibaicai\Ueditor\Ueditor;
 use Illuminate\Http\Request;
-use DcatAdmin\Ueditor\Storage;
+use Weiaibaicai\Ueditor\Storage;
 use Illuminate\Routing\Controller;
 
 class UeditorController extends Controller

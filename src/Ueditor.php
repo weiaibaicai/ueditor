@@ -1,6 +1,6 @@
 <?php
 
-namespace DcatAdmin\Ueditor;
+namespace Weiaibaicai\Ueditor;
 
 use Illuminate\Support\Arr;
 

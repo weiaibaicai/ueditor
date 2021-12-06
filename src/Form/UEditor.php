@@ -1,6 +1,6 @@
 <?php
 
-namespace DcatAdmin\Ueditor\Form;
+namespace Weiaibaicai\Ueditor\Form;
 
 use Dcat\Admin\Admin;
 use Dcat\Admin\Form\Field;
@@ -25,7 +25,7 @@ class UEditor extends Field
 
 //    protected $view = 'ueditor::ueditor';
 //
-    protected $view = 'dcat-admin.ueditor::ueditor';
+    protected $view = 'weiaibaicai.ueditor::ueditor';
 
 
     /**
@@ -121,7 +121,7 @@ JS;
     public function variables()
     {
         return array_merge(parent::variables(), [
-            'homeUrl' => admin_asset('@extension/dcat-admin/ueditor') . '/',
+            'homeUrl' => admin_asset('@extension/weiaibaicai/ueditor') . '/',
         ]);
     }
 
@@ -130,7 +130,7 @@ JS;
      */
     public function render()
     {
-        Admin::requireAssets('@dcat-admin.ueditor');
+        Admin::requireAssets('@weiaibaicai.ueditor');
 
         $this->disk();
 

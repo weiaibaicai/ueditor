@@ -7,11 +7,11 @@
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
-namespace DcatAdmin\Ueditor;
+namespace Weiaibaicai\Ueditor;
 
-use DcatAdmin\Ueditor\Events\Catched;
-use DcatAdmin\Ueditor\Events\Uploaded;
-use DcatAdmin\Ueditor\Events\Uploading;
+use Weiaibaicai\Ueditor\Events\Catched;
+use Weiaibaicai\Ueditor\Events\Uploaded;
+use Weiaibaicai\Ueditor\Events\Uploading;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;

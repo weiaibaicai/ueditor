@@ -1,11 +1,11 @@
 <?php
 
-namespace DcatAdmin\Ueditor;
+namespace Weiaibaicai\Ueditor;
 
 use Dcat\Admin\Admin;
 use Dcat\Admin\Extend\ServiceProvider;
 use Dcat\Admin\Form;
-use DcatAdmin\Ueditor\Form\UEditor as UEditorForm;
+use Weiaibaicai\Ueditor\Form\UEditor as UEditorForm;
 
 class UeditorServiceProvider extends ServiceProvider
 {

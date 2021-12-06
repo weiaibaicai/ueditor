@@ -2,6 +2,9 @@
 
 /* 前后端通信相关的配置,注释只允许使用多行方式 */
 return [
+    'disk' => '',//Filesystem Disk,默认值取后台设置的值，
+    'hash_filename' => 1,
+
     /* 上传图片配置项 */
     'imageActionName' => 'uploadimage', /* 执行上传图片的action名称 */
     'imageFieldName' => 'upfile', /* 提交的图片表单名称 */

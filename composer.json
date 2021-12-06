@@ -3,7 +3,7 @@
     "alias": "",
     "description": "Description...",
     "type": "library",
-    "keywords": ["dcat-admin", "extension"],
+    "keywords": ["dcat-admin", "extension", "ueditor"],
     "homepage": "https://github.com/weiaibaicai/ueditor",
     "license": "MIT",
     "authors": [

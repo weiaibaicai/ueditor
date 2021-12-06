@@ -62,12 +62,16 @@ class UEditor extends Field
     }
 
     /**
-     * @param string $disk
      *
      * @return $this
      */
-    public function disk($disk = 'qiniu')
+    public function disk()
     {
+        $disk = config('ueditor.disk');
+        if (empty($disk)) {
+            $disk = config('admin.upload.disk');
+        }
+
         $this->disk = $disk;
 
         return $this;

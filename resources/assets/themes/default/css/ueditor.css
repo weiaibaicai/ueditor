@@ -1172,6 +1172,9 @@ div.edui-box {
     position: absolute;
 
 }
+#edui_fixedlayer {
+    z-index: 9999 !important;
+}
 
 .edui-dialog div{
     width:auto;
